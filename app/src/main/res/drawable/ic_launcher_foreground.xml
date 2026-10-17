@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sombra suave bajo la insignia -->
+    <path
+        android:fillColor="#1F4F46E5"
+        android:pathData="M54,58m-27,0a27,27 0 1,0 54,0a27,27 0 1,0 -54,0" />
+
+    <!-- Insignia con degradado cian a índigo -->
+    <path android:pathData="M54,54m-27,0a27,27 0 1,0 54,0a27,27 0 1,0 -54,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="30"
+                android:endX="78"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00C2FF" />
+                <item android:offset="1.0" android:color="#FF4F46E5" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Hilos laterales (descarga en paralelo) -->
+    <path
+        android:pathData="M39,38L39,47M69,38L69,47"
+        android:strokeColor="#99FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- Flecha de descarga -->
+    <path
+        android:pathData="M54,36L54,58M44.5,49L54,58.5L63.5,49"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Bandeja -->
+    <path
+        android:pathData="M40,70L68,70"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+</vector>

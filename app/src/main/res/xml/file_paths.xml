@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- La carpeta de descargas es elegible por el usuario, así que el proveedor debe poder
+         compartir archivos de cualquier carpeta del almacenamiento. Solo se generan enlaces
+         para los archivos que la propia app abre o comparte, y son temporales. -->
+    <external-path name="storage" path="." />
+    <root-path name="root" path="." />
+    <external-files-path name="app_downloads" path="." />
+    <files-path name="internal_downloads" path="." />
+</paths>

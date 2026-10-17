@@ -1,0 +1,6 @@
+{
+  "name": "toDus Download",
+  "description": "Descargador de archivos toDus a máxima velocidad con tarifa cero ETECSA, conexiones directas por socket SSL, multi-hilo y diseño futurista 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

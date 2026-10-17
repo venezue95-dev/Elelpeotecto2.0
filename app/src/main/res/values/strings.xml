@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">toDus Download</string>
+    <string name="tab_downloads">Descargas</string>
+    <string name="tab_history">Historial</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="add_download">Añadir enlace</string>
+    <string name="paste_clipboard">Pegar enlace</string>
+    <string name="active_downloads">Descargas activas</string>
+    <string name="no_active_downloads">No hay descargas en curso</string>
+    <string name="channel_name">Descargas en curso</string>
+    <string name="channel_description">Notificaciones de progreso y estado de descargas</string>
+</resources>
